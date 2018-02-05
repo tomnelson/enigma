@@ -121,7 +121,7 @@ public class Enigma extends Applet {
 	TransformGroup objScale = new TransformGroup();
 	Transform3D t3d = new Transform3D();
 	//  t3d.rotX(Math.PI/6.);
-	t3d.setScale(0.3);
+	t3d.setScale(0.2);
 	//   t3d.setTranslation(new Vector3f(0.f, 0.f, -40.f));
 	objScale.setTransform(t3d);
 	objRoot.addChild(objScale);
@@ -232,7 +232,7 @@ public class Enigma extends Applet {
 	enigmaLook.setTexture(tex.getTexture());
 	
 	BoundingSphere bounds =
-	    new BoundingSphere(new Point3d(0.0,0.0,0.0), 2000.0);
+	    new BoundingSphere(new Point3d(0.0,0.0,0.0), 3000.0);
 	
 	try {
 	    clickURL = Enigma.class.getResource("/click.wav");
