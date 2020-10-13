@@ -17,12 +17,12 @@ package net.tom.j3d.enigma;
 
 /**
  */
-import javax.media.j3d.Appearance;
-import javax.media.j3d.Geometry;
-import javax.media.j3d.QuadArray;
-import javax.media.j3d.Shape3D;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.jogamp.java3d.Appearance;
+import org.jogamp.java3d.Geometry;
+import org.jogamp.java3d.QuadArray;
+import org.jogamp.java3d.Shape3D;
+import org.jogamp.vecmath.Point3f;
+import org.jogamp.vecmath.Vector3f;
 
 /**
  * 

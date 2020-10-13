@@ -18,16 +18,16 @@ package net.tom.j3d.enigma;
 /**
  * Author: Tom Nelson - tnelso2@cs.umbc.edu
  */
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Appearance;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.RotationInterpolator;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3f;
+import org.jogamp.java3d.Alpha;
+import org.jogamp.java3d.Appearance;
+import org.jogamp.java3d.BoundingSphere;
+import org.jogamp.java3d.RotationInterpolator;
+import org.jogamp.java3d.Transform3D;
+import org.jogamp.java3d.TransformGroup;
+import org.jogamp.vecmath.Point3d;
+import org.jogamp.vecmath.Vector3f;
 
-import com.sun.j3d.utils.geometry.Box;
+import org.jogamp.java3d.utils.geometry.Box;
 
 /**
  * 

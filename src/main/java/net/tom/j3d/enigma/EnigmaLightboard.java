@@ -22,11 +22,11 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-import javax.media.j3d.Texture;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
+import org.jogamp.java3d.Texture;
+import org.jogamp.java3d.Transform3D;
+import org.jogamp.java3d.TransformGroup;
 import javax.swing.ImageIcon;
-import javax.vecmath.Vector3f;
+import org.jogamp.vecmath.Vector3f;
 
 /**
  * 

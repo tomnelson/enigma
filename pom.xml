@@ -43,6 +43,14 @@
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.8.0</version>
+						<configuration>
+							<release>11</release>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-jar-plugin</artifactId>
 						<configuration>
 							<archive>
@@ -55,7 +63,7 @@
 					</plugin>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
-						<version>2.1</version>
+<!--						<version>2.1</version>-->
 						<executions>
 							<execution>
 								<phase>package</phase>
@@ -81,41 +89,56 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-	  <groupId>org.scijava</groupId>
-	  <artifactId>vecmath</artifactId>
-	  <version>1.6.0-scijava-1</version>
-  </dependency>
-	<dependency>
-		<groupId>org.scijava</groupId>
-		<artifactId>j3dcore</artifactId>
-		<version>1.6.0-scijava-1</version>
-	</dependency>
-	<dependency>
-		<groupId>org.scijava</groupId>
-		<artifactId>j3dutils</artifactId>
-		<version>1.6.0-scijava-1</version>
-	</dependency>
+	  <dependency>
+		  <groupId>org.jogamp.java3d</groupId>
+		  <artifactId>vecmath</artifactId>
+		  <version>1.7.0</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>org.jogamp.java3d</groupId>
+		  <artifactId>java3d-core</artifactId>
+		  <version>1.7.0</version>
+	  </dependency>
+	  <dependency>
+		  <groupId>org.jogamp.java3d</groupId>
+		  <artifactId>java3d-utils</artifactId>
+		  <version>1.7.0</version>
+	  </dependency>
+	  <!--    <dependency>-->
+<!--	  <groupId>org.scijava</groupId>-->
+<!--	  <artifactId>vecmath</artifactId>-->
+<!--	  <version>1.6.0-scijava-1</version>-->
+<!--  </dependency>-->
+<!--	<dependency>-->
+<!--		<groupId>org.scijava</groupId>-->
+<!--		<artifactId>j3dcore</artifactId>-->
+<!--		<version>1.6.0-scijava-1</version>-->
+<!--	</dependency>-->
+<!--	<dependency>-->
+<!--		<groupId>org.scijava</groupId>-->
+<!--		<artifactId>j3dutils</artifactId>-->
+<!--		<version>1.6.0-scijava-1</version>-->
+<!--	</dependency>-->
 
 	<dependency>
 		  <groupId>org.jogamp.gluegen</groupId>
 		  <artifactId>gluegen-rt-main</artifactId>
-		  <version>2.3.1</version>
+		  <version>2.3.2</version>
 	  </dependency>
 	  <dependency>
 		  <groupId>org.jogamp.jogl</groupId>
 		  <artifactId>jogl-all-main</artifactId>
-		  <version>2.3.1</version>
+		  <version>2.3.2</version>
 	  </dependency>
 	  <dependency>
 		  <groupId>org.jogamp.jocl</groupId>
 		  <artifactId>jocl-main</artifactId>
-		  <version>2.3.1</version>
+		  <version>2.3.2</version>
 	  </dependency>
 	  <dependency>
 		  <groupId>org.jogamp.joal</groupId>
 		  <artifactId>joal-main</artifactId>
-		  <version>2.3.1</version>
+		  <version>2.3.2</version>
 	  </dependency>
 
   </dependencies>

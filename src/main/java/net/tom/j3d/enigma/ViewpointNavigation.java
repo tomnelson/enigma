@@ -15,8 +15,8 @@
  */
 package net.tom.j3d.enigma;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import org.jogamp.java3d.*;
+import org.jogamp.vecmath.*;
 import java.util.*;
 
 /**
@@ -140,7 +140,7 @@ public class ViewpointNavigation {
 	    super(alpha, target, axis, knots, quats, positions);
 	}
 	
-	public void processStimulus(Enumeration criteria) {
+	public void processStimulus(Iterator criteria) {
 	    Alpha thisAlpha = getAlpha();
 	    if(thisAlpha.finished()) {
 		if(motionBranch != null) {

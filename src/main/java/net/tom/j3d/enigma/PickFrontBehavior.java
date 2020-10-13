@@ -20,15 +20,15 @@ package net.tom.j3d.enigma;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-import javax.media.j3d.Bounds;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.TransformGroup;
+import org.jogamp.java3d.Bounds;
+import org.jogamp.java3d.BranchGroup;
+import org.jogamp.java3d.Canvas3D;
+import org.jogamp.java3d.TransformGroup;
 
-//import com.sun.j3d.utils.behaviors.picking.PickObject;
-import com.sun.j3d.utils.picking.PickResult;
-import com.sun.j3d.utils.picking.PickTool;
-import com.sun.j3d.utils.picking.behaviors.PickMouseBehavior;
+//import org.jogamp.java3d.utils.behaviors.picking.PickObject;
+import org.jogamp.java3d.utils.picking.PickResult;
+import org.jogamp.java3d.utils.picking.PickTool;
+import org.jogamp.java3d.utils.picking.behaviors.PickMouseBehavior;
 
 /**
  * 
